@@ -1,0 +1,33 @@
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files and directories
+.vscode/
+
+# Ignore dependency directories
+__pycache__/
+lib/
+
+# Ignore Python virtual environment files
+pyvenv.cfg
+bin/
+
+# Ignore project-specific generated files or directories
+assets/
+
+# Ignore log files and build artifacts (customize as needed)
+logs/
+build/
+
+# Ignore sensitive or user-specific files (customize as needed)
+.env
+
+# Ignore compiled code or binary files (customize as needed)
+*.pyc
+
+# Ignore specific files (customize as needed)
+rxconfig.py
+
+# Ignore specific directories (customize as needed)
+.web/
