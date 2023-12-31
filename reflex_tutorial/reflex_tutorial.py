@@ -43,14 +43,21 @@ from .state import State
 
 def other():
     return rx.box(
-        sidebar.sidebar(),
+        navbar.navbar(),
         rx.text("Hello World"),
     )
 def index() -> rx.Component:
     """The main app."""
     return rx.box(
-        sidebar.sidebar(),
-        chat.index_chat()
+        navbar.navbar(),
+        rx.flex(
+            chat.index_chat(),
+            direction="column",
+            justify_content="center",
+            align_items="center",
+            height="100vh",  # This sets the height to the full viewport height
+            width="100%",
+        )
     )
 app = rx.App()
 app.add_page(index)

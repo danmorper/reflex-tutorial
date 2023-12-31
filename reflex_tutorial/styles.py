@@ -3,3 +3,8 @@ class BackgroundColor:
 
     SIDEBAR = "blue"
 
+
+class Margins:
+    """Margins of the application."""
+
+    avoid_navbar = "30px"
