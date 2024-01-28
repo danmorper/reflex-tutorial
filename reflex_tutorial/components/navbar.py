@@ -3,7 +3,7 @@ def navbar():
     return rx.box(
         rx.text("🏊", style={"font-size": "2rem", "margin-right": "15px"}),
         rx.link("Home", href="http://localhost:3000", style={"padding": "10px", "color": "white", "text-decoration": "none"}),
-        rx.link("Other", href="http://localhost:3000/other", style={"padding": "10px", "color": "white", "text-decoration": "none"}),
+        #rx.link("Other", href="http://localhost:3000/other", style={"padding": "10px", "color": "white", "text-decoration": "none"}),
         position="fixed",
         width="100%",
         top="0px",
